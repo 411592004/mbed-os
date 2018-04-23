@@ -159,6 +159,12 @@ struct trng_s {
 };
 #endif
 
+#if DEVICE_CAN
+struct can_s {
+    CAN_TypeDef *instance;
+};
+#endif
+
 #ifdef __cplusplus
 }
 #endif

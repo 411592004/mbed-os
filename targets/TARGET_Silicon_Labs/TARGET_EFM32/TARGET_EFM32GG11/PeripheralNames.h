@@ -71,6 +71,11 @@ typedef enum {
     SPI_5 = USART5_BASE,
 } SPIName;
 
+typedef enum {
+    CAN_0 = CAN0_BASE,
+    CAN_1 = CAN1_BASE,
+} CANName;
+
 #ifdef __cplusplus
 }
 #endif

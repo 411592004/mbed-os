@@ -477,3 +477,43 @@ const PinMap PinMap_UART_RX[] = {
 
     {NC  , NC   , NC}
 };
+
+const PinMap PinMap_CAN_TX[] = {
+    {PC1,  CAN_0, 0},
+    {PF2,  CAN_0, 1},
+    {PD1,  CAN_0, 2},
+    {PB10, CAN_0, 3},
+    {PG9,  CAN_0, 4},
+    {PD15, CAN_0, 5},
+    {PE1,  CAN_0, 6},
+    {PI13, CAN_0, 7},
+
+    {PC3,  CAN_1, 0},
+    {PF3,  CAN_1, 1},
+    {PD4,  CAN_1, 2},
+    {PC10, CAN_1, 3},
+    {PC11, CAN_1, 4},
+    {PA13, CAN_1, 5},
+    {PG11, CAN_1, 6},
+    {PI15, CAN_1, 7},
+}
+
+const PinMap PinMap_CAN_RX[] = {
+    {PC0,  CAN_0, 0},
+    {PF0,  CAN_0, 1},
+    {PD0,  CAN_0, 2},
+    {PB9,  CAN_0, 3},
+    {PG8,  CAN_0, 4},
+    {PD14, CAN_0, 5},
+    {PE0,  CAN_0, 6},
+    {PI12, CAN_0, 7},
+
+    {PC2,  CAN_1, 0},
+    {PF1,  CAN_1, 1},
+    {PD3,  CAN_1, 2},
+    {PC9,  CAN_1, 3},
+    {PC12, CAN_1, 4},
+    {PA12, CAN_1, 5},
+    {PG10, CAN_1, 6},
+    {PI14, CAN_1, 7},
+}
